@@ -10,11 +10,12 @@ This guide covers the steps to:
 - Create a Kubernetes cluster using Kind.
 - Install and access kubectl.
 - Set up the Kubernetes Dashboard.
-- Install and configure Argo CD.
-- Connect and manage your Kubernetes cluster with Argo CD.
+- Connect and monitor application using Prometheus and Grafana.
 
 
 ## Observability
+![Grafana diagram](grafana.png)
+![Prometheus diagram](prometheus.png)
 
 * A front-end web app in [Python](/vote) which lets you vote between two options
 * A [Redis](https://hub.docker.com/_/redis/) which collects new votes
